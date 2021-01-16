@@ -10,7 +10,7 @@ example.
 
 | Key            | Value                                                               | Suggested Type | Required | Default                                      |
 | -------------- | ------------------------------------------------------------------- | -------------- | -------- | -------------------------------------------- |
-| `GITHUB_TOKEN` | Personal github token. **recommend use GITHUN_TOKEN**               | `secret env`   | **Yes**  | N/A                                          |
+| `GITHUB_TOKEN` | Personal github token. **recommend use GITHUB_TOKEN**               | `secret env`   | **Yes**  | N/A                                          |
 | `EVENT_TYPE`   | Type of event will have `APPROVE`, `COMMENT` and `REQUEST_CHANGES`. | `env`          | No       | `APPROVE`                                    |
 | `BRANCHES`     | Select the branch that you want to use.                             | `env`          | No       | `release/*`                                  |
 | `MESSAGE`      | Can add comment at event select.                                    | `env`          | No       | `Success approve. Enjoy 🏳️‍🌈🎉.`               |
